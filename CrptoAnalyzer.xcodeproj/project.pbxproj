@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B941F896874C6EF9506B96A7 /* Pods_CrptoAnalyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BF976B04C6FF4B38200F25 /* Pods_CrptoAnalyzer.framework */; };
+		F3128B682142877600E190A5 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128B672142877600E190A5 /* PostService.swift */; };
+		F3128B6B2142955900E190A5 /* ChartDataServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128B6A2142955900E190A5 /* ChartDataServiceImplementation.swift */; };
+		F3128B6E2142986A00E190A5 /* PublicServicesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128B6D2142986A00E190A5 /* PublicServicesRepository.swift */; };
+		F3128B702142A06200E190A5 /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128B6F2142A06200E190A5 /* ServiceHandler.swift */; };
+		F3128B722142A10300E190A5 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3128B712142A10300E190A5 /* Ticker.swift */; };
+		F31D8A27214959A3007ADABA /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31D8A26214959A3007ADABA /* HomeViewCell.xib */; };
+		F31D8A2921495AA7007ADABA /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D8A2821495AA7007ADABA /* HomeViewCell.swift */; };
+		F31D8A36214C21C7007ADABA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D8A35214C21C7007ADABA /* NetworkManager.swift */; };
+		F31D8A38214CE36A007ADABA /* Names.strings in Resources */ = {isa = PBXBuildFile; fileRef = F31D8A37214CE36A007ADABA /* Names.strings */; };
+		F337E9B52159184500E64E97 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = F337E9B42159184500E64E97 /* loader.gif */; };
+		F337E9B7215918FF00E64E97 /* GifAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F337E9B6215918FF00E64E97 /* GifAnimator.swift */; };
+		F3926E27213E54A3008B81AF /* TickerServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3926E26213E54A3008B81AF /* TickerServiceImplementation.swift */; };
+		F3926E30213E8F6D008B81AF /* TickerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3926E2F213E8F6D008B81AF /* TickerResponse.swift */; };
+		F3CB33E6213D0684002A933C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB33E5213D0684002A933C /* AppDelegate.swift */; };
+		F3CB33E8213D0684002A933C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB33E7213D0684002A933C /* HomeViewController.swift */; };
+		F3CB33EB213D0684002A933C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CB33E9213D0684002A933C /* Main.storyboard */; };
+		F3CB33ED213D0684002A933C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CB33EC213D0684002A933C /* Assets.xcassets */; };
+		F3CB33F0213D0684002A933C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CB33EE213D0684002A933C /* LaunchScreen.storyboard */; };
+		F3CC3F4221465EE900CA359D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC3F4121465EE900CA359D /* HomeViewModel.swift */; };
+		F3CC3F452146614500CA359D /* HomeViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC3F442146614500CA359D /* HomeViewContract.swift */; };
+		F3D9305721425D38002DF12A /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9305621425D38002DF12A /* Formatting.swift */; };
+		F3DBBF1221477E1D00EA92E0 /* TickerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DBBF1121477E1D00EA92E0 /* TickerDisplay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08BF976B04C6FF4B38200F25 /* Pods_CrptoAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrptoAnalyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D5BD8D6E0E09CA1B42149D /* Pods-CrptoAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrptoAnalyzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		4E29C0D9781F04BD1BA0D900 /* Pods-CrptoAnalyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrptoAnalyzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer.release.xcconfig"; sourceTree = "<group>"; };
+		F3128B672142877600E190A5 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		F3128B6A2142955900E190A5 /* ChartDataServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataServiceImplementation.swift; sourceTree = "<group>"; };
+		F3128B6D2142986A00E190A5 /* PublicServicesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicServicesRepository.swift; sourceTree = "<group>"; };
+		F3128B6F2142A06200E190A5 /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		F3128B712142A10300E190A5 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		F31D8A26214959A3007ADABA /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		F31D8A2821495AA7007ADABA /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		F31D8A3121497E96007ADABA /* CrptoAnalyzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrptoAnalyzer-Bridging-Header.h"; sourceTree = "<group>"; };
+		F31D8A35214C21C7007ADABA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F31D8A37214CE36A007ADABA /* Names.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Names.strings; sourceTree = "<group>"; };
+		F337E9B42159184500E64E97 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		F337E9B6215918FF00E64E97 /* GifAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifAnimator.swift; sourceTree = "<group>"; };
+		F3926E26213E54A3008B81AF /* TickerServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerServiceImplementation.swift; sourceTree = "<group>"; };
+		F3926E2F213E8F6D008B81AF /* TickerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerResponse.swift; sourceTree = "<group>"; };
+		F3CB33E2213D0684002A933C /* CrptoAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrptoAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CB33E5213D0684002A933C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3CB33E7213D0684002A933C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3CB33EA213D0684002A933C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CB33EC213D0684002A933C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CB33EF213D0684002A933C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CB33F1213D0684002A933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC3F4121465EE900CA359D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F3CC3F442146614500CA359D /* HomeViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewContract.swift; sourceTree = "<group>"; };
+		F3D9305621425D38002DF12A /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		F3DBBF1121477E1D00EA92E0 /* TickerDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerDisplay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CB33DF213D0684002A933C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941F896874C6EF9506B96A7 /* Pods_CrptoAnalyzer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABEB3339BD6620CD766F7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BF976B04C6FF4B38200F25 /* Pods_CrptoAnalyzer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3128B69214294D300E190A5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F3926E26213E54A3008B81AF /* TickerServiceImplementation.swift */,
+				F3128B6A2142955900E190A5 /* ChartDataServiceImplementation.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F3128B6C2142983F00E190A5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F3128B6D2142986A00E190A5 /* PublicServicesRepository.swift */,
+				F3128B6F2142A06200E190A5 /* ServiceHandler.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F337E9B1215917E900E64E97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F337E9B42159184500E64E97 /* loader.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3926E25213E4C29008B81AF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3128B69214294D300E190A5 /* Public */,
+				F3926E2A213E6C87008B81AF /* Models */,
+				F3128B672142877600E190A5 /* PostService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3926E2A213E6C87008B81AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3926E2F213E8F6D008B81AF /* TickerResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3CB33D9213D0684002A933C = {
+			isa = PBXGroup;
+			children = (
+				F3CB33E4213D0684002A933C /* CrptoAnalyzer */,
+				F3CB33E3213D0684002A933C /* Products */,
+				F94B76A0B54EC09B13B3691D /* Pods */,
+				5ABEB3339BD6620CD766F7F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CB33E3213D0684002A933C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CB33E2213D0684002A933C /* CrptoAnalyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CB33E4213D0684002A933C /* CrptoAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC3F432146612600CA359D /* Home */,
+				F3128B6C2142983F00E190A5 /* Repositories */,
+				F3D9305521425C71002DF12A /* Utilities */,
+				F3D9305121424B68002DF12A /* Models */,
+				F3926E25213E4C29008B81AF /* Services */,
+				F3CB33E5213D0684002A933C /* AppDelegate.swift */,
+				F3CB33E9213D0684002A933C /* Main.storyboard */,
+				F3CB33EC213D0684002A933C /* Assets.xcassets */,
+				F3CB33EE213D0684002A933C /* LaunchScreen.storyboard */,
+				F3CB33F1213D0684002A933C /* Info.plist */,
+				F31D8A3121497E96007ADABA /* CrptoAnalyzer-Bridging-Header.h */,
+			);
+			path = CrptoAnalyzer;
+			sourceTree = "<group>";
+		};
+		F3CC3F432146612600CA359D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F3CB33E7213D0684002A933C /* HomeViewController.swift */,
+				F3CC3F4121465EE900CA359D /* HomeViewModel.swift */,
+				F3CC3F442146614500CA359D /* HomeViewContract.swift */,
+				F31D8A26214959A3007ADABA /* HomeViewCell.xib */,
+				F31D8A2821495AA7007ADABA /* HomeViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3D9305121424B68002DF12A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBBF1321477E4F00EA92E0 /* DisplayModels */,
+				F3128B712142A10300E190A5 /* Ticker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3D9305521425C71002DF12A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F337E9B1215917E900E64E97 /* Resources */,
+				F3D9305621425D38002DF12A /* Formatting.swift */,
+				F31D8A35214C21C7007ADABA /* NetworkManager.swift */,
+				F31D8A37214CE36A007ADABA /* Names.strings */,
+				F337E9B6215918FF00E64E97 /* GifAnimator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F3DBBF1321477E4F00EA92E0 /* DisplayModels */ = {
+			isa = PBXGroup;
+			children = (
+				F3DBBF1121477E1D00EA92E0 /* TickerDisplay.swift */,
+			);
+			path = DisplayModels;
+			sourceTree = "<group>";
+		};
+		F94B76A0B54EC09B13B3691D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D5BD8D6E0E09CA1B42149D /* Pods-CrptoAnalyzer.debug.xcconfig */,
+				4E29C0D9781F04BD1BA0D900 /* Pods-CrptoAnalyzer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CB33E1213D0684002A933C /* CrptoAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CB33F4213D0684002A933C /* Build configuration list for PBXNativeTarget "CrptoAnalyzer" */;
+			buildPhases = (
+				0C446F8C7A38DF8F4A68455A /* [CP] Check Pods Manifest.lock */,
+				F3CB33DE213D0684002A933C /* Sources */,
+				F3CB33DF213D0684002A933C /* Frameworks */,
+				F3CB33E0213D0684002A933C /* Resources */,
+				64EEFEAF26644620A7888994 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrptoAnalyzer;
+			productName = CrptoAnalyzer;
+			productReference = F3CB33E2213D0684002A933C /* CrptoAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CB33DA213D0684002A933C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Heelin Mistry";
+				TargetAttributes = {
+					F3CB33E1213D0684002A933C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = F3CB33DD213D0684002A933C /* Build configuration list for PBXProject "CrptoAnalyzer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CB33D9213D0684002A933C;
+			productRefGroup = F3CB33E3213D0684002A933C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CB33E1213D0684002A933C /* CrptoAnalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CB33E0213D0684002A933C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337E9B52159184500E64E97 /* loader.gif in Resources */,
+				F3CB33F0213D0684002A933C /* LaunchScreen.storyboard in Resources */,
+				F31D8A27214959A3007ADABA /* HomeViewCell.xib in Resources */,
+				F3CB33ED213D0684002A933C /* Assets.xcassets in Resources */,
+				F3CB33EB213D0684002A933C /* Main.storyboard in Resources */,
+				F31D8A38214CE36A007ADABA /* Names.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C446F8C7A38DF8F4A68455A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrptoAnalyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EEFEAF26644620A7888994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Signals/Signals.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Signals.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CB33DE213D0684002A933C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D9305721425D38002DF12A /* Formatting.swift in Sources */,
+				F3CC3F4221465EE900CA359D /* HomeViewModel.swift in Sources */,
+				F3128B702142A06200E190A5 /* ServiceHandler.swift in Sources */,
+				F3926E27213E54A3008B81AF /* TickerServiceImplementation.swift in Sources */,
+				F3128B6B2142955900E190A5 /* ChartDataServiceImplementation.swift in Sources */,
+				F3128B682142877600E190A5 /* PostService.swift in Sources */,
+				F3128B6E2142986A00E190A5 /* PublicServicesRepository.swift in Sources */,
+				F3DBBF1221477E1D00EA92E0 /* TickerDisplay.swift in Sources */,
+				F3CC3F452146614500CA359D /* HomeViewContract.swift in Sources */,
+				F31D8A2921495AA7007ADABA /* HomeViewCell.swift in Sources */,
+				F3CB33E8213D0684002A933C /* HomeViewController.swift in Sources */,
+				F3128B722142A10300E190A5 /* Ticker.swift in Sources */,
+				F31D8A36214C21C7007ADABA /* NetworkManager.swift in Sources */,
+				F337E9B7215918FF00E64E97 /* GifAnimator.swift in Sources */,
+				F3926E30213E8F6D008B81AF /* TickerResponse.swift in Sources */,
+				F3CB33E6213D0684002A933C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3CB33E9213D0684002A933C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CB33EA213D0684002A933C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3CB33EE213D0684002A933C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CB33EF213D0684002A933C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CB33F2213D0684002A933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+			};
+			name = Debug;
+		};
+		F3CB33F3213D0684002A933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CB33F5213D0684002A933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D5BD8D6E0E09CA1B42149D /* Pods-CrptoAnalyzer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q62675U78R;
+				INFOPLIST_FILE = CrptoAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heelin.CrptoAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrptoAnalyzer/CrptoAnalyzer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CB33F6213D0684002A933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29C0D9781F04BD1BA0D900 /* Pods-CrptoAnalyzer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q62675U78R;
+				INFOPLIST_FILE = CrptoAnalyzer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heelin.CrptoAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrptoAnalyzer/CrptoAnalyzer-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CB33DD213D0684002A933C /* Build configuration list for PBXProject "CrptoAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CB33F2213D0684002A933C /* Debug */,
+				F3CB33F3213D0684002A933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CB33F4213D0684002A933C /* Build configuration list for PBXNativeTarget "CrptoAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CB33F5213D0684002A933C /* Debug */,
+				F3CB33F6213D0684002A933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CB33DA213D0684002A933C /* Project object */;
+}

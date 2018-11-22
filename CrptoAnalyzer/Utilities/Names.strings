@@ -1,0 +1,72 @@
+/* 
+  Names.strings
+  CrptoAnalyzer
+
+  Created by Heelin Mistry on 2018/09/15.
+  Copyright © 2018 Heelin Mistry. All rights reserved.
+*/
+
+"AMP" = "Synereo";
+"ARDR" = "Ardor";
+"BAT" = "Basic Attention Token";
+"BCH" = "Bitcoin Cash";
+"BCN" = "Bytecoin";
+"BTC" = "Bitcoin";
+"BTCD" = "BitcoinDark";
+"BTM" = "Bitmark";
+"BTS" = "BitShares";
+"BURST" = "Burst";
+"CLAM" = "Clams";
+"CVC" = "Civic";
+"DASH" = "Dash";
+"DCR" = "Decred";
+"DGB" = "DigiByte";
+"DOGE" = "Dogecoin";
+"EMC2" = "Einsteinium";
+"EOS" = "EOS";
+"ETC" = "Ethereum Classic";
+"ETH" = "Ethereum";
+"EXP" = "Expanse";
+"FCT" = "Factom";
+"GAME" = "GameCredits";
+"GAS" = "Gas";
+"GNO" = "Gnosis";
+"GNT" = "Golem";
+"GRC" = "GridCoin";
+"HUC" = "HunterCoin";
+"KNC" = "Kyber Network";
+"LBC" = "LBRY Credits";
+"LOOM" = "Loom Network";
+"LSK" = "Lisk";
+"LTC" = "Litecoin";
+"MAID" = "MaidSafeCoin";
+"NAV" = "NavCoin";
+"NEOS" = "NeosCoin";
+"NMC" = "Namecoin";
+"NXT" = "Nxt";
+"OMG" = "OmiseGO";
+"OMNI" = "Omni";
+"PASC" = "Pascal Coin";
+"POT" = "PotCoin";
+"PPC" = "Peercoin";
+"QTUM" = "Qtum";
+"REP" = "Augur";
+"SBD" = "Steem Dollars";
+"SC" = "Siacoin";
+"SNT" = "Status";
+"STEEM" = "Steem";
+"STORJ" = "Storj";
+"STR" = "Staker";
+"STRAT" = "Stratis";
+"SYS" = "Syscoin";
+"VIA" = "Viacoin";
+"VRC" = "VeriCoin";
+"VTC" = "Vertcoin";
+"XBC" = "Bitcoin Plus";
+"XCP" = "Counterparty";
+"XEM" = "NEM";
+"XMR" = "Monero";
+"XPM" = "Primecoin";
+"XRP" = "Ripple";
+"ZEC" = "Zcash";
+"ZRX" = "0x";
