@@ -17,8 +17,6 @@ class HomeViewCell : UITableViewCell {
     @IBOutlet weak var high: UILabel!
     @IBOutlet weak var low: UILabel!
     
-    @IBOutlet weak var dividerColor: UIView!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -31,13 +29,16 @@ class HomeViewCell : UITableViewCell {
         self.name.text = ""
         self.fullName.text = ""
         self.price.text = ""
+        self.fullName.text = ""
+        self.high.text = ""
+        self.low.text = ""
     }
     
     func setDisplayValues(value : TickerDisplay) {
         self.name.text = value.toName
-        self.fullName.text = localizedString(forKey: value.toName)
         setPriceString(percentage: value.percentChange, price: value.last)
         self.percentage.text = value.percentChange.toPercentage()
+        self.fullName.text = localizedString(forKey: value.toName)
         self.high.text = value.high24Hr
         self.low.text = value.low24Hr
     }
@@ -46,13 +47,13 @@ class HomeViewCell : UITableViewCell {
         if let value = Double(percentage){
             if (value < 0.0){
                 self.percentage.textColor = UIColor(red:0.80, green:0.00, blue:0.00, alpha:1.0)
-               self.dividerColor.backgroundColor = UIColor(red:0.60, green:0.00, blue:0.00, alpha:1.0)
             } else if (value > 0.0) {
                 self.percentage.textColor = UIColor(red:0.00, green:0.60, blue:0.00, alpha:1.0)
-                self.dividerColor.backgroundColor = UIColor(red:0.00, green:0.60, blue:0.00, alpha:1.0)
             }
         }
-        self.price.text = price
+        if let priceValue = Double(price){
+            self.price.text = String(format: "%.6f", priceValue)
+        }
     }
     
     func localizedString(forKey key: String) -> String {
