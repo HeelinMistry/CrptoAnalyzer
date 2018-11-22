@@ -1,0 +1,74 @@
+Podfile.lock
+Pods/Manifest.lock
+Pods/Alamofire/LICENSE
+Pods/Alamofire/README.md
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/SessionManager.swift
+Pods/Alamofire/Source/TaskDelegate.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/Validation.swift
+Pods/DZNEmptyDataSet/LICENSE
+Pods/DZNEmptyDataSet/README.md
+Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.h
+Pods/DZNEmptyDataSet/Source/UIScrollView+EmptyDataSet.m
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/Alamofire.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/DZNEmptyDataSet.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/Pods-CrptoAnalyzer.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/ReachabilitySwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/Signals.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/heelinmistry.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/ReachabilitySwift/LICENSE
+Pods/ReachabilitySwift/README.md
+Pods/ReachabilitySwift/Sources/Reachability.swift
+Pods/Signals/LICENSE
+Pods/Signals/README.md
+Pods/Signals/Signals/Signal.swift
+Pods/Signals/Signals/ios/AssociatedObject.swift
+Pods/Signals/Signals/ios/UIControl+Signals.swift
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/Alamofire/Info.plist
+Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-dummy.m
+Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch
+Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-umbrella.h
+Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap
+Pods/Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.xcconfig
+Pods/Target Support Files/DZNEmptyDataSet/Info.plist
+Pods/Target Support Files/Pods-CrptoAnalyzer/Info.plist
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-acknowledgements.markdown
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-acknowledgements.plist
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-dummy.m
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-frameworks.sh
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-resources.sh
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer-umbrella.h
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer.debug.xcconfig
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer.modulemap
+Pods/Target Support Files/Pods-CrptoAnalyzer/Pods-CrptoAnalyzer.release.xcconfig
+Pods/Target Support Files/ReachabilitySwift/Info.plist
+Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-dummy.m
+Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch
+Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h
+Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap
+Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.xcconfig
+Pods/Target Support Files/Signals/Info.plist
+Pods/Target Support Files/Signals/Signals-dummy.m
+Pods/Target Support Files/Signals/Signals-prefix.pch
+Pods/Target Support Files/Signals/Signals-umbrella.h
+Pods/Target Support Files/Signals/Signals.modulemap
+Pods/Target Support Files/Signals/Signals.xcconfig
