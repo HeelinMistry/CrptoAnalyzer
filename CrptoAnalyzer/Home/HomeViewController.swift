@@ -8,6 +8,8 @@
 
 import UIKit
 
+var rowHeight : CGFloat = 60
+
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate{
 
     @IBOutlet weak var stackView: UIStackView!
@@ -58,7 +60,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func setupTable() {
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.rowHeight = UITableView.automaticDimension
+        tableView.rowHeight = rowHeight
         
         tableView.register(UINib(nibName: identifier, bundle: nil), forCellReuseIdentifier: identifier)
         tableView.emptyDataSetSource = self

@@ -16,6 +16,9 @@ class HomeViewCell : UITableViewCell {
     @IBOutlet weak var percentage: UILabel!
     @IBOutlet weak var high: UILabel!
     @IBOutlet weak var low: UILabel!
+    @IBOutlet weak var expandButton: UIButton!
+    
+    var isExpanded : Bool = false
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,6 +37,18 @@ class HomeViewCell : UITableViewCell {
         self.low.text = ""
     }
     
+    func hideAdditionalData(){
+        self.fullName.isHidden = true
+        self.high.isHidden = true
+        self.low.isHidden = true
+    }
+    
+    func showAdditionalData(){
+        self.fullName.isHidden = false
+        self.high.isHidden = false
+        self.low.isHidden = false
+    }
+    
     func setDisplayValues(value : TickerDisplay) {
         self.name.text = value.toName
         setPriceString(percentage: value.percentChange, price: value.last)
@@ -41,6 +56,8 @@ class HomeViewCell : UITableViewCell {
         self.fullName.text = localizedString(forKey: value.toName)
         self.high.text = value.high24Hr
         self.low.text = value.low24Hr
+        
+        hideAdditionalData()
     }
     
     func setPriceString(percentage : String, price : String){
@@ -54,6 +71,22 @@ class HomeViewCell : UITableViewCell {
         if let priceValue = Double(price){
             self.price.text = String(format: "%.6f", priceValue)
         }
+    }
+    
+    @IBAction func expandButtonPressed(_ sender: Any) {
+        isExpanded = !isExpanded
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            if(self.isExpanded){
+                self.expandButton.transform = CGAffineTransform(rotationAngle: (180.0 * .pi) / 180.0)
+                self.showAdditionalData()
+            } else {
+                self.expandButton.transform = CGAffineTransform(rotationAngle: (360.0 * .pi) / 180.0)
+                self.hideAdditionalData()
+            }
+            
+            self.layoutIfNeeded()
+        })
     }
     
     func localizedString(forKey key: String) -> String {
